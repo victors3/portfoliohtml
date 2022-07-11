@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vue/3.2.37/vue.cjs.js">
+</head>
+<body>
+
+    <header>
+
+        <div class="user">
+            <img src="./img/victor.jpg" alt="victor">
+            <h3 class="name"> Victor sodré</h3>
+            <p class="post">developer Front end</p>
+        </div>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">home</a></li>
+                <li><a href="#about">sobre mim</a></li>
+                <li><a href="#education">educação </a></li>
+                <li><a href="#portifolio">Portfólio</a></li>
+                <li><a href="#contact">contato</a></li>
+            </ul>
+
+        </nav>
+
+
+    </header>
+
+    <div id="menu" class="fas fa-bars"></div>
+
+    <section class="home" id="home">
+
+        <h3>olá!</h3>
+        <h1>eu me chamo <span>Victor sodré</span></h1>
+        <p>Sou uma pessoa determinada, esforçado, me dedico em tudo que me proponho a fazer. Gosto de aprender coisas novas, sou estudioso, atencioso e estou disposto a sempre disponibilizar o meu melhor.</p>
+        <a href="#about"> <button class="btn">sobre mim <i class="fas fa-user"></i></button></a>
+
+    </section>
+
+    <section class="about" id="about">
+
+        <h1 class="heading"> <span>sobre</span> mim </h1>
+        <div class="row">
+            <div class="info">
+                <h3> <span> nome : </span> Victor sodré</h3>
+                <h3> <span> idade : </span> 28 </h3>
+                <h3> <span>certificados : </span><a class="cert" href="https://www.devmedia.com.br/cursos/concluido/" target="_blank">certificados</a> </h3>
+                <h3> <span> estudante de desenvolvimento web : </span> (html5, css3, javascript, node, react.js) </h3>
+                <h3> <span> idiomas : </span> português nativo<br> espanhol basico, inglês basico </h3  
+                
+                <a href="https://victors3.github.io/curriculo-online/"><button class="btn"> download cv <i class="fas fa-download"></i></button></a>
+            </div>
+
+            <div class="counter">
+                <div class="box">
+                    <span>+1 ano</span>
+                    <h3> de experiência</h3>
+                </div>
+
+                <div class="box">
+                    <span>+15</span>
+                    <h3>projetos compilados</h3>
+                </div>
+
+                <div class="box">
+                    <span>+6</span>
+                    <h3>cursos concluidos</h3>
+                </div>
+
+                <div class="box">
+                    <span>+6</span>
+                    <h3>certificados</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="education" id="education">
+        <h1 class="heading"> minha <span>educação</span> </h1>
+        <div class="box-container">
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>2021</span>
+                <h3>front end developement</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, voluptatem unde! Obcaecati iure itaque nemo incidunt praesentium perferendis debitis cum at quasi veniam? Laboriosam provident molestias perspiciatis, eaque molestiae aliquid!</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>2022</span>
+                <h3>front end developement</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, voluptatem unde! Obcaecati iure itaque nemo incidunt praesentium perferendis debitis cum at quasi veniam? Laboriosam provident molestias perspiciatis, eaque molestiae aliquid!</p>
+            </div>
+
+    </section>
+
+    <section class="portifolio" id="portifolio">
+        <h1 class="heading"> meu <span>Portfólio</span></h1>
+        <div class="box-container">
+
+            <div class="box">
+               <a href="https://victors3.github.io/projetobarbershop.github.io/" target="_self"><img src="../img/projeto-baber.jpg"  alt="1"></a>
+            </div>
+
+            <div class="box">
+                <img src="../img/nos.jpg.crdownload" alt="2">
+            </div>
+
+            <div class="box">
+                <img src="../img/nos.jpg.crdownload" alt="3">
+            </div>
+
+            <div class="box">
+                <img src="../img/nos.jpg.crdownload" alt="4">
+            </div>
+
+            <div class="box">
+                <img src="../img/nos.jpg.crdownload" alt="5">
+            </div>
+
+            <div class="box">
+                <img src="../img/nos.jpg.crdownload" alt="6">
+            </div>
+            
+
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h1 class="heading"> <span>contacte</span> me </h1>
+        <div class="row">
+            <div class="content">
+                <h3 class="title">contato</h3>
+                <div class="info">
+                    <h3> <i class="fas fa-evelope"></i>victorsodre1992@hotmail.com</h3>
+                    <h3> <i class="fas fa-phone"></i>(75) 98144-6251</h3>
+                    <h3> <i class="fas fa-mp-marker-alt"></i>Feira de Santana-BA. 44054-048</h3>
+                </div>
+            </div>
+            <form action="">
+                <input type="text" placeholder="nome" class="box">
+                <input type="email" placeholder="email" class="box">
+                <input type="text" placeholder="telefone" class="box">
+                <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="menssagem"></textarea>
+                <button type="submit" class="btn">enviar <i class="fas fa-paper-plane"></i></button>
+
+                <a href="https://api.whatsapp.com/send?l=pt&amp;phone=5575981446251"><img 
+                    src="https://i.imgur.com/ryESuZ5.png" style="height:55px; position:fixed; bottom: 15px; right: 
+                    80px; z-index:99999;" data-selector="img"></a>
+                    
+            </form>
+        </div>
+    </section>
+
+    <a href="#home">
+        <img src="" alt="">
+    </a>
+
+    
+   
+
+
+
+
+
+
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+   <script src="js/script.js"></script>
+</body>
+</html>
